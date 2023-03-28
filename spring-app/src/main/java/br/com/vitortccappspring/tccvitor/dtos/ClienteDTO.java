@@ -6,6 +6,36 @@ public class ClienteDTO {
     private String sobreNome;
     private String cep;
 
+    private String telefone;
+
+    private String email;
+
+    private String dataNascimento ;
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
     public String getPrimeiroNome() {
         return primeiroNome;
     }
